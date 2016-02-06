@@ -34,23 +34,53 @@ div.first-image {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height:417px;
+	height:450px;
 }
 
-div.first-image > div.container > h1 {
+div.first-image > div.container {
+	position:relative !important;
+}
+
+div.first-image > div.container > div{
+	margin-top:200px;
+}
+
+div.first-image > div.container h1 {
 	font-weight: 200;
 	color:#c8102e;
-	float:left;
+	width:320px;
 }
 
-div.first-image > div.container > div {
+div.first-image > div.container h3 {
+	font-weight: 200;
+}
+
+div.second-image {
+	background: url("../img/home-section-one.jpg") 50% 0px no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:570px;
+}
+
+div.second-image > div.container > div {
 	float:right;
+	max-width:500px;
+	margin-top:150px;
 }
 
-
-div.first-image > div.container > div > h3 {
+div.second-image > div.container > div h1 {
 	font-weight:200;
+	color:#ffffff;
 }
+
+div.second-image > div.container > div p {
+	font-weight:200;
+	color:#ffffff;
+	font-size:14px;
+}
+
 
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -70,6 +100,9 @@ and (min-width : 321px) {
 @media only screen 
 and (max-width : 320px) {
 /* Styles */
+	div.second-image > div.container > div {
+		margin-top:90px !important;
+	}
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -102,12 +135,9 @@ and (min-width : 1224px) {
 	div.container {
 		width:1000px;
 	}
-	div.first-image > div.container > h1 {
-		margin-top:150px;
-	}
-	div.first-image > div.container > div {
-		width:500px;
-		margin-top:150px;
+	div.first-image > div.container h1 {
+		font-size:35px;
+		line-height:40px;
 	}
 }
 
