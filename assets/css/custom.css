@@ -1,0 +1,9 @@
+/* Add here all your css styles (customizations) */
+div.menu-container > ul.nav.navbar-nav > li a{
+	font-size:13px !important;
+	color:#737373 !important;
+}
+
+div.menu-container > ul.nav.navbar-nav > li.active a, div.menu-container > ul.nav.navbar-nav > li a:hover {
+	color:#cc2126 !important;
+}
