@@ -7,3 +7,19 @@ div.menu-container > ul.nav.navbar-nav > li a{
 div.menu-container > ul.nav.navbar-nav > li.active a, div.menu-container > ul.nav.navbar-nav > li a:hover {
 	color:#cc2126 !important;
 }
+
+div.navbar-brand > a, div.navbar-brand > a > img.shrink-logo {
+	max-width: 200px;
+}
+
+div.header-above {
+	height:50px;
+	width:100%;
+	background-color: #ffffff;
+	border-bottom:#ededed 1px solid;
+}
+
+div.header-above > a {
+	font-size:14px;
+	text-decoration: none;
+}
