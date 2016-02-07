@@ -11,6 +11,17 @@ div.navbar-brand > a, div.navbar-brand > a > img.shrink-logo {
 	max-width: 200px;
 }
 
+div.navbar.mega-menu {
+	position:relative;
+}
+
+div.navbar.mega-menu > div.shadow-container {
+	position:absolute;
+	bottom:-10px;
+	height:90px;
+	width:100%;
+}
+
 div.header-above {
 	height:40px;
 	width:100%;
@@ -29,12 +40,12 @@ div.header-above > div.container > a {
 }
 
 div.first-image {
-	background: url("../img/bg-tumor-monitoring.jpg") 50% 0px no-repeat;
+	background: url("../img/bg-tumor-monitoring.jpg") 50% 35px no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height:450px;
+	height:500px;
 }
 
 div.first-image > div.container {
@@ -42,7 +53,7 @@ div.first-image > div.container {
 }
 
 div.first-image > div.container > div{
-	margin-top:200px;
+	margin-top:250px;
 }
 
 div.first-image > div.container h1 {
@@ -61,13 +72,13 @@ div.second-image {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height:570px;
+	height:500px;
 }
 
 div.second-image > div.container > div {
 	float:right;
 	max-width:500px;
-	margin-top:150px;
+	margin-top:110px;
 }
 
 div.second-image > div.container > div h1 {
@@ -79,6 +90,34 @@ div.second-image > div.container > div p {
 	font-weight:200;
 	color:#ffffff;
 	font-size:14px;
+}
+
+div.third-image {
+	background: url("../img/third_image.png") 50% 0px no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:500px;
+}
+
+div.third-image .container > div.row {
+	margin-top:120px;
+}
+
+div.third-image .container > div.row > div > p {
+	color:#000000;
+	font-size: 16px;
+}
+
+.headline {
+	border-bottom: 1px solid #c8102e;
+}
+
+.headline h2 {
+	font-weight: 200;
+	color:#c8102e;
+	border:none;
 }
 
 
@@ -101,7 +140,7 @@ and (min-width : 321px) {
 and (max-width : 320px) {
 /* Styles */
 	div.second-image > div.container > div {
-		margin-top:90px !important;
+		margin-top:90px;
 	}
 }
 
@@ -139,12 +178,63 @@ and (min-width : 1224px) {
 		font-size:35px;
 		line-height:40px;
 	}
+/* 	
+	.effect5
+	{
+	  margin:0 auto;
+	  width:330px;
+	}
+	.effect5:before, .effect5:after
+	{
+	  z-index: -1;
+	  position: absolute;
+	  content: "#";
+	  bottom: 45px;
+	  left: 360px;
+	  width: 50%;
+	  max-width:300px;
+	  box-shadow: 0 35px 50px #777;
+	  transform: rotate(5deg);
+	  color:transparent;
+	}
+	.effect5:after
+	{
+	  transform: rotate(-5deg);
+	  right: 360px;
+	  left: auto;
+	}
+*/	
 }
 
 /* Large screens ----------- */
 @media only screen 
 and (min-width : 1824px) {
-/* Styles */
+/* Styles
+	.effect5
+	{
+	  margin:0 auto;
+	  width:330px;
+	}
+	.effect5:before, .effect5:after
+	{
+	  z-index: -1;
+	  position: absolute;
+	  content: "#";
+	  bottom: 45px;
+	  left: 360px;
+	  width: 50%;
+	  max-width:300px;
+	  box-shadow: 0 35px 50px #777;
+	  transform: rotate(5deg);
+	  color:transparent;
+	}
+	.effect5:after
+	{
+	  transform: rotate(-5deg);
+	  right: 360px;
+	  left: auto;
+	}
+*/
 }
 
 /* iPhone 4 ----------- */
