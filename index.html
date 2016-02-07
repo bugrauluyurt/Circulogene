@@ -150,7 +150,147 @@
             <!-- End Info Blokcs -->
         </div>
     </div>
-    <!-- Second image end -->
+    <!-- Third image end -->
+
+    <!-- Fourth image start -->
+    <div class="fourth-image">
+        <div class="container custom-accordion">
+
+            <h1>Circulogene Advantage</h1>
+
+            <div class="panel-group acc-v1" id="accordion-1">
+
+                <!-- Accordion collapse 1 -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-1" href="#collapse-One">
+                            <span class="edit-toggle">-</span> Non-Invasive Precision Medicine
+                        </a>
+                        </h4>
+                    </div>
+                    <div id="collapse-One" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-12 text-in">
+                                    Because our patented technique enriches the sample, Circulogene analysis only requires 50 microliters of blood from a finger stick, more convenient for health care professionals and patients.               
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Accordion collapse 1 end -->
+
+                <!-- Accordion collapse 2 -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-1" href="#collapse-Two">
+                            <span class="edit-toggle">+</span> Accurate Identification of Tumor Mutations
+                        </a>
+                        </h4>
+                    </div>
+                    <div id="collapse-Two" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-12 text-in">
+                                   Circulogene’s tests analyze for the presence of cell-free DNA, identifying and quantifying any tumor mutations for accurate reporting and monitoring.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Accordion collapse 2 end -->
+
+                <!-- Accordion collapse 3 -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-1" href="#collapse-Three">
+                            <span class="edit-toggle">+</span> Tumor Mutations Matched with Treatment
+                        </a>
+                        </h4>
+                    </div>
+                    <div id="collapse-Three" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-12 text-in">              
+                                    In our personalized gene reports, Circulogene further provides information on current FDA-approved treatment options proven effective for the tumor DNA mutations identified.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Accordion collapse 3 end -->
+
+                <!-- Accordion collapse 4 -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-1" href="#collapse-Four">
+                            <span class="edit-toggle">+</span> Track Responsiveness Frequently
+                        </a>
+                        </h4>
+                    </div>
+                    <div id="collapse-Four" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-12 text-in">              
+                                    The efficiency of Circulogene’s process empowers physicians to closely monitor tumor responsiveness and adjust treatment protocols. Turnaround time is 5 to 7 days, much faster than tissue biopsy results and other liquid biopsies.                       
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Accordion collapse 4 end -->
+
+                <!-- Accordion collapse 5 -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-1" href="#collapse-Five">
+                            <span class="edit-toggle">+</span> Tumor Burden and Recurrence
+                        </a>
+                        </h4>
+                    </div>
+                    <div id="collapse-Five" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-12 text-in">              
+                                    The Circulogene process uses precise baseline data from which to measure cell turnover and progression.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Accordion collapse 5 end -->
+
+                <!-- Accordion collapse 6 -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-1" href="#collapse-Six">
+                            <span class="edit-toggle">+</span>A Yield of 100x with 1/10 of the Sample
+                        </a>
+                        </h4>
+                    </div>
+                    <div id="collapse-Six" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-12 text-in">                
+                                    We compared the sensitivity of our proprietary cell-free DNA enrichment method to the standard DNA extraction kit used industry-wide today. Results demonstrated 100x more cell-free tumor DNA in the original sample using a single drop of blood.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Accordion collapse 6 end -->
+
+            </div>
+            <!-- End Accordion v1 -->           
+        </div>
+    </div>
+    <!-- Fourth image end -->
 
 
     <!--=== Call to Action ===-->
@@ -606,6 +746,10 @@
         StyleSwitcher.initStyleSwitcher();
         OwlCarousel.initOwlCarousel();
         OwlRecentWorks.initOwlRecentWorksV2();
+        $(".accordion-toggle").click(function () {
+            $(".widget_body_type").slideToggle("slow");
+            ($(this).children(".edit-toggle").text() === "+") ?  $(".edit-toggle").text("+") && $(this).children(".edit-toggle").text("-") : $(".edit-toggle").text("+");
+        });
     });
 </script>
 <!--[if lt IE 9]>

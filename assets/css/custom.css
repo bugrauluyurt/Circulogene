@@ -4,7 +4,7 @@ div.menu-container > ul.nav.navbar-nav > li a{
 	color:#737373 !important;}
 
 div.menu-container > ul.nav.navbar-nav > li.active a, div.menu-container > ul.nav.navbar-nav > li a:hover {
-	color:#cc2126 !important;
+	color:#c8102e !important;
 }
 
 div.navbar-brand > a, div.navbar-brand > a > img.shrink-logo {
@@ -27,7 +27,7 @@ div.header-above {
 	width:100%;
 	background-color: #ffffff;
 	border-bottom:#ededed 1px solid;
-	border-top: #e10707 3px solid;
+	border-top: #c8102e 3px solid;
 }
 
 div.header-above > div.container > a {
@@ -64,6 +64,7 @@ div.first-image > div.container h1 {
 
 div.first-image > div.container h3 {
 	font-weight: 200;
+	color:#000000;
 }
 
 div.second-image {
@@ -108,6 +109,7 @@ div.third-image .container > div.row {
 div.third-image .container > div.row > div > p {
 	color:#000000;
 	font-size: 16px;
+	font-weight: 200;
 }
 
 .headline {
@@ -118,6 +120,74 @@ div.third-image .container > div.row > div > p {
 	font-weight: 200;
 	color:#c8102e;
 	border:none;
+}
+
+div.fourth-image {
+	background: url("../img/bg-circulogene-advantage.jpg") 50% 0px no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:550px;
+}
+
+div.custom-accordion div#accordion-1 div.panel-default {
+	color:#ffffff !important;
+	background-color:transparent;
+	border:none;
+	width:660px;
+	font-weight: 200;
+	box-shadow: none;
+}
+
+div.custom-accordion div#accordion-1 div.panel-default div.text-in {
+	font-weight:200 !important;
+	font-size: 14px;
+	margin-left:45px;
+	max-width:600px;
+}
+
+div.custom-accordion div#accordion-1 div.panel-default div.panel-heading{
+	background-color:transparent;
+}
+
+div.custom-accordion div#accordion-1 div.panel-default div.panel-heading h4.panel-title a {
+	color:#ffffff !important;
+	background-color:transparent;
+	font-weight: 200;
+	font-size:16px;
+}
+
+div.custom-accordion div#accordion-1 div.panel-default div.panel-heading h4.panel-title a span {
+	display:inline-block;
+	background-color:#ffffff;
+	color:#c8102e !important;
+	font-weight: 900;
+	margin-right:20px;
+	margin-bottom:10px;
+	width:20px;
+	height:20px;
+	text-align: center;
+	line-height: 20px;
+}
+
+div.custom-accordion div#accordion-1 div.panel-default div.panel-heading h4.panel-title a:hover {
+	text-decoration:none;
+}
+
+div.custom-accordion div#accordion-1 div.panel-default div.panel-heading h4.panel-title a:hover span {
+	background-color:#c8102e;
+	color:#ffffff !important;
+}
+
+
+div.custom-accordion h1 {
+	color:#ffffff;
+	font-weight:200;
+	font-size:24px;
+	padding-left:12px;
+	margin-top:50px;
+	margin-bottom:30px;
 }
 
 
@@ -140,7 +210,7 @@ and (min-width : 321px) {
 and (max-width : 320px) {
 /* Styles */
 	div.second-image > div.container > div {
-		margin-top:90px;
+		margin-top:30px;
 	}
 }
 
