@@ -41,9 +41,6 @@ div.header-above > div.container > a {
 
 div.first-image {
 	background: url("../img/bg-tumor-monitoring.jpg") 50% 35px no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
 	height:500px;
 }
@@ -69,9 +66,6 @@ div.first-image > div.container h3 {
 
 div.second-image {
 	background: url("../img/home-section-one.jpg") 50% 0px no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
 	height:500px;
 }
@@ -95,9 +89,6 @@ div.second-image > div.container > div p {
 
 div.third-image {
 	background: url("../img/third_image.png") 50% 0px no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
 	height:500px;
 }
@@ -117,16 +108,13 @@ div.third-image .container > div.row > div > p {
 }
 
 .headline h2 {
-	font-weight: 200;
-	color:#c8102e;
 	border:none;
+	color:#c8102e;
+	font-weight: 200;
 }
 
 div.fourth-image {
 	background: url("../img/bg-circulogene-advantage.jpg") 50% 0px no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
 	height:550px;
 }
