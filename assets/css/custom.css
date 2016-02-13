@@ -56,7 +56,7 @@ div.first-image > div.container > div{
 div.first-image > div.container h1 {
 	font-weight: 200;
 	color:#c8102e;
-	width:320px;
+	width:300px;
 }
 
 div.first-image > div.container h3 {
@@ -65,15 +65,16 @@ div.first-image > div.container h3 {
 }
 
 div.second-image {
-	background: url("../img/home-section-one.jpg") 50% 0px no-repeat;
+	background: url("../img/home-section-one.jpg") 50% -0px no-repeat;
 	background-size: cover;
-	height:500px;
+	min-height:417px;
 }
 
 div.second-image > div.container > div {
 	float:right;
 	max-width:500px;
-	margin-top:110px;
+	padding-top:65px;
+	padding-bottom:65px;
 }
 
 div.second-image > div.container > div h1 {
@@ -88,13 +89,14 @@ div.second-image > div.container > div p {
 }
 
 div.third-image {
-	background: url("../img/third_image.png") 50% 0px no-repeat;
+	background: url("../img/bg-columns.jpg") 50% 0px no-repeat;
 	background-size: cover;
-	height:500px;
+	min-height:428px;
 }
 
 div.third-image .container > div.row {
-	margin-top:120px;
+	padding-top:90px;
+	padding-bottom:90px;
 }
 
 div.third-image .container > div.row > div > p {
@@ -116,14 +118,17 @@ div.third-image .container > div.row > div > p {
 div.fourth-image {
 	background: url("../img/bg-circulogene-advantage.jpg") 50% 0px no-repeat;
 	background-size: cover;
-	height:550px;
+	min-height:550px;
+}
+div.custom-accordion {
+	padding-bottom: 50px;
 }
 
 div.custom-accordion div#accordion-1 div.panel-default {
 	color:#ffffff !important;
 	background-color:transparent;
 	border:none;
-	width:660px;
+	max-width:660px;
 	font-weight: 200;
 	box-shadow: none;
 }
@@ -137,6 +142,7 @@ div.custom-accordion div#accordion-1 div.panel-default div.text-in {
 
 div.custom-accordion div#accordion-1 div.panel-default div.panel-heading{
 	background-color:transparent;
+	border-bottom:none !important;
 }
 
 div.custom-accordion div#accordion-1 div.panel-default div.panel-heading h4.panel-title a {
@@ -144,6 +150,7 @@ div.custom-accordion div#accordion-1 div.panel-default div.panel-heading h4.pane
 	background-color:transparent;
 	font-weight: 200;
 	font-size:16px;
+	border-bottom:1px solid #ffffff;
 }
 
 div.custom-accordion div#accordion-1 div.panel-default div.panel-heading h4.panel-title a span {
@@ -176,6 +183,50 @@ div.custom-accordion h1 {
 	padding-left:12px;
 	margin-top:50px;
 	margin-bottom:30px;
+}
+
+div.fifth-image {
+	background-color:#f0f0f0;
+	min-height:241px;
+}
+
+div.fifth-image .container {
+	padding-top:55px;
+	padding-bottom:55px;
+}
+
+div.fifth-image .container .report-buttons {
+	min-height:70px;
+	padding-top:15px;
+}
+
+div.fifth-image .container .report-buttons a {
+	display:block;
+	border-color:#c8102e;
+	color:#c8102e;
+	width:150px !important;
+	margin:0 auto !important;
+}
+
+div.fifth-image .container .report-buttons a:hover {
+	background-color:#c8102e;
+	color:#ffffff;
+}
+
+div.fifth-image .container h1 {
+	font-weight:200;
+	color:rgb(115,115,115);
+	text-align: center;
+	width:100%;
+}
+
+div.sixth-image {
+	min-height:437px;
+	background-color: #ffffff;
+}
+
+#topcontrol:hover {
+	background: #c8102e !important;
 }
 
 
