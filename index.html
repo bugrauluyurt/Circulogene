@@ -307,10 +307,25 @@
     <div class="sixth-image">
         <div class="container">
             <div class="col-md-3">
-                
+                <div class="headline"><h2>Contact Us</h2></div>
+                <p>
+                    3125 Independence Drive
+                    Suite 301
+                    Birmingham, AL 35209 <br>
+                    855-614-7083 <br>
+                </p>
+                <a href="mailto:info@circulogene.com?subject=Question" "email me">info@circulogene.com</a>
             </div>
-            <div class="col-md-9">
-                
+            <div class="col-md-9 form-box">
+                <div class="col-lg-4">
+                    <input type="text" class="form-control" id="name" placeholder="Name (required)">
+                </div>
+                <div class="col-lg-4">
+                    <input type="email" class="form-control" id="email" placeholder="Email (required)">
+                </div>
+                <div class="col-lg-4">
+                    <input type="text" class="form-control" id="phone" placeholder="Phone number (required)">
+                </div>
             </div>
         </div>
     </div>
@@ -394,29 +409,6 @@
 <script type="text/javascript" src="assets/js/plugins/style-switcher.js"></script>
 <script type="text/javascript" src="assets/js/plugins/owl-carousel.js"></script>
 <script type="text/javascript" src="assets/js/plugins/owl-recent-works.js"></script>
-<script type="text/javascript">
-    jQuery(document).ready(function() {
-      	App.init();
-        LayerSlider.initLayerSlider();
-        StyleSwitcher.initStyleSwitcher();
-        OwlCarousel.initOwlCarousel();
-        OwlRecentWorks.initOwlRecentWorksV2();
-        $(".accordion-toggle").click(function () {
-            $(".widget_body_type").slideToggle("slow");
-            ($(this).children(".edit-toggle").text() === "+") ?  $(".edit-toggle").text("+") && $(this).children(".edit-toggle").text("-") : $(".edit-toggle").text("+");
-        });
-        $(window).scroll(function() {
-            if ($(this).scrollTop()>0)
-             {
-                $('.header-above').fadeOut();
-             }
-            else
-             {
-              $('.header-above').fadeIn();
-             }
-        });
-    });
-</script>
 <!--[if lt IE 9]>
     <script src="assets/plugins/respond.js"></script>
     <script src="assets/plugins/html5shiv.js"></script>
