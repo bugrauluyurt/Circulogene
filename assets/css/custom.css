@@ -1,4 +1,9 @@
 /* Add here all your css styles (customizations) */
+div.blank {
+	height:300px;
+	background-color: #ffffff;
+}
+
 div.menu-container > ul.nav.navbar-nav > li a{
 	font-size:13px !important;
 	color:#737373 !important;}
@@ -274,9 +279,7 @@ div.sixth-image .container div a:hover {
 
 .form-box div.col-lg-12 textarea:focus {
 	outline: none;
-  	-webkit-box-shadow: 1px 1px 2px 1px rgba(204,204,204,0.83) !important;
--moz-box-shadow: 1px 1px 2px 1px rgba(204,204,204,0.83) !important;
-box-shadow: 1px 1px 2px 1px rgba(204,204,204,0.83) !important;
+	box-shadow: 1px 1px 2px 1px rgba(204,204,204,0.83) !important;
 }
 
 
@@ -321,6 +324,24 @@ div ul.footer-socials li a {
 	color:#ffffff !important;
 }
 
+div.title-banner {
+	background: url("../img/bg-technology.jpg") 50% 0px no-repeat;
+	background-size: cover;
+}
+
+div.title-banner div.container {
+	text-align:center;
+}
+
+div.title-banner h1 {
+	margin:0 auto;
+	font-weight: 200;
+	width:300px;
+	text-align: center;
+	color:#ffffff;
+	line-height: normal;
+}
+
 
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -328,21 +349,26 @@ div ul.footer-socials li a {
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
 /* Styles */
+	div.title-banner h1 {
+		padding-top:25px;
+	}
+	div.title-banner {
+		height:90px;
+	}
 }
 
 /* Smartphones (landscape) ----------- */
 @media only screen 
 and (min-width : 321px) {
 /* Styles */
+	
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen 
 and (max-width : 320px) {
 /* Styles */
-	div.second-image > div.container > div {
-		margin-top:30px;
-	}
+	
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -350,6 +376,7 @@ and (max-width : 320px) {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
 /* Styles */
+
 }
 
 /* iPads (landscape) ----------- */
@@ -358,6 +385,12 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) 
 and (orientation : landscape) {
 /* Styles */
+	div.title-banner h1 {
+		padding-top:60px;
+	}
+	div.title-banner {
+		height:120px;
+	}
 }
 
 /* iPads (portrait) ----------- */
@@ -366,6 +399,12 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) 
 and (orientation : portrait) {
 /* Styles */
+	div.title-banner h1 {
+		padding-top:25px;
+	}
+	div.title-banner {
+		height:90px;
+	}
 }
 
 /* Desktops and laptops ----------- */
@@ -378,6 +417,13 @@ and (min-width : 1224px) {
 	div.first-image > div.container h1 {
 		font-size:35px;
 		line-height:40px;
+	}
+	div.title-banner h1 {
+		padding-top:100px;
+		font-size:40px;
+	}
+	div.title-banner {
+		height:220px;
 	}
 /* 	
 	.effect5
