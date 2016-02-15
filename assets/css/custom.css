@@ -302,6 +302,15 @@ div.sixth-image .container div a:hover {
 	margin-top:10px;
 }
 
+a.btn-u-black {
+	border-color:#000000 !important;
+	color:#000000 !important;
+}
+
+a.btn-u-black:hover {
+	background-color:#000000 !important;
+}
+
 .submit-button input:hover {
 	background-color:#c8102e;
 	color:#ffffff;
@@ -442,6 +451,85 @@ div.information-section .container div.side-text div.gene-list div ul{
 div.information-section .container div.side-text div.gene-list div.col-xs-4{
 	padding-left:0px;
 	margin-left:0px;
+}
+
+div.information-section .container .news-item {
+	min-height:300px;
+	margin-top:40px;
+	position:relative;
+	border-bottom:1px solid #c8102e;
+}
+
+div.information-section .container .news-item a.btn-u {
+	position:absolute;
+	bottom:30px;
+	right:0px;
+}
+
+div.information-section .container .news-item div.news-left {
+	position:absolute;
+	width:80px;
+	left:0px;
+}
+
+div.information-section .container .news-item div.news-right {
+	padding-left:120px;
+}
+
+div.information-section .container .news-item div.news-right a {
+	color:#c8102e;
+	text-decoration: none;
+	font-size:18px;
+}
+
+div.information-section .container .news-item div.news-right div.news-body {
+	margin:20px 0;
+}
+
+div.information-section .container .news-item div.news-right a:hover {
+	color:#000000;
+}
+
+div.information-section .container .news-item div.news-right p {
+	color:#000000;
+	padding-left:0px;
+}
+
+div.information-section .container .news-item div.news-left > div {
+	background-color: #c8102e;
+	text-align:center;
+}
+
+div.information-section .container .news-item div > div span {
+	display:block;
+	color:#ffffff;
+	line-height: normal;
+}
+
+div.information-section .container .news-item div > div span:first-child {
+	font-size:29px;
+	padding-top:10px;
+}
+
+div.information-section .container .news-item div > div span:nth-child(2) {
+	font-size:13px;
+	padding-bottom:10px;
+}
+
+div.information-section .container .pagination {
+	float:right;
+	margin-top:30px;
+	margin-bottom:50px;
+}
+
+div.information-section .container .pagination li.active a{
+	background-color:#c8102e;
+	border:1px solid #c8102e;
+}
+
+div.information-section .container .pagination li a:hover {
+	background-color:#c8102e;
+	border:1px solid #c8102e;
 }
 
 span.text-red {
