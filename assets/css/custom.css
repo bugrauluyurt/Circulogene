@@ -233,6 +233,7 @@ div.sixth-image {
 	min-height:437px;
 	background-color: #ffffff;
 	padding-top:66px;
+	padding-bottom:60px;
 }
 
 div.sixth-image .container div p {
@@ -454,10 +455,10 @@ div.information-section .container div.side-text div.gene-list div.col-xs-4{
 }
 
 div.information-section .container .news-item {
-	min-height:300px;
 	margin-top:40px;
 	position:relative;
 	border-bottom:1px solid #c8102e;
+	padding-bottom:60px;
 }
 
 div.information-section .container .news-item a.btn-u {
