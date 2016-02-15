@@ -1,4 +1,8 @@
 /* Add here all your css styles (customizations) */
+body {
+	font-weight: 200 !important;
+}
+
 div.blank {
 	height:300px;
 	background-color: #ffffff;
@@ -342,6 +346,92 @@ div.title-banner h1 {
 	line-height: normal;
 }
 
+div.left-red-bar {
+	border-left:1px solid #c8102e;
+	margin-bottom:50px;
+	margin-top:50px;
+}
+
+div.left-red-bar.red ul li {
+	color:#c8102e;
+}
+
+div.information-section {
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+div.information-section .container div > div p,
+div.information-section .container div > div h1 {
+	padding-left:20px;
+	font-weight: 200;
+}
+
+
+div.information-section .container div > div p {
+	font-size:16px;
+	color:black;
+}
+
+div.information-section .container div > div h1 {
+	color:#c8102e;
+	padding-bottom:15px;
+}
+
+div.information-section .container div > ul.list-checked {
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+div.information-section .container div > ul.list-checked li {
+	padding-left:40px;
+	font-size:16px;
+	color:black;
+	font-weight: 200;
+	list-style-type: none;
+}
+
+div.information-section .container div > ul li i {
+	color:#c8102e;
+	padding-right:15px;
+}
+
+div.information-section .container div.side-text {
+	margin-top:50px;
+}
+
+div.information-section .container div.side-text div p {
+	font-size:13px;
+	color:rgb(116,116,116);
+	margin-bottom:30px;
+}
+
+div.information-section .container div.side-text div.gene-list {
+	border-top:1px solid #c8102e;
+	border-bottom:1px solid #c8102e;
+	margin-bottom:30px;
+}
+
+div.information-section .container div.side-text div.gene-list div ul li{
+	list-style-type: none;
+	color:rgb(116,116,116);
+	margin-left:-5px;
+}
+
+div.information-section .container div.side-text div.gene-list div ul{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+div.information-section .container div.side-text div.gene-list div.col-xs-4{
+	padding-left:0px;
+	margin-left:0px;
+}
+
+span.text-red {
+	color:#c8102e;
+}
+
 
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -355,13 +445,21 @@ and (max-device-width : 480px) {
 	div.title-banner {
 		height:90px;
 	}
+	div.information-section .container div > ul.list-checked li {
+		padding-left:0px;
+	}
 }
 
 /* Smartphones (landscape) ----------- */
 @media only screen 
 and (min-width : 321px) {
 /* Styles */
-	
+	div.title-banner h1 {
+		padding-top:30px;
+	}
+	div.title-banner {
+		height:100px;
+	}
 }
 
 /* Smartphones (portrait) ----------- */
