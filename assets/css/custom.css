@@ -406,6 +406,22 @@ div.information-section .container div.side-text div p {
 	margin-bottom:30px;
 }
 
+div.information-section .container div.side-text div > span {
+	display:block;
+}
+
+div.information-section .container div.side-text div a {
+	text-decoration:none;
+	display:block;
+	color:rgb(116,116,116);
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+div.information-section .container div.side-text div a:hover {
+	color:#c8102e;
+}
+
 div.information-section .container div.side-text div.gene-list {
 	border-top:1px solid #c8102e;
 	border-bottom:1px solid #c8102e;
