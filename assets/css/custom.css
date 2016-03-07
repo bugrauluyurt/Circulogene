@@ -554,6 +554,23 @@ span.text-red {
 	color:#c8102e;
 }
 
+.leadershipteam div img{
+	width:100%;
+	padding-bottom:15px;
+}
+
+.leadershipteam div.row{
+	margin-bottom:20px;
+}
+
+.leadershipteam p {
+	font-size:14px;
+}
+
+.leadershipteam h2 {
+	color:#c8102e;
+}
+
 
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -588,6 +605,42 @@ and (min-width : 321px) {
 @media only screen 
 and (max-width : 320px) {
 /* Styles */
+	div.reverse-text-m {
+		margin-top:188px;
+	}
+	div.reverse-image-m {
+		margin-top:-430px;
+		margin-bottom:275px;
+	}
+
+	div.reverse-text {
+		margin-top:188px;
+	}
+	div.reverse-image {
+		margin-top:-470px;
+		margin-bottom:290px;
+	}
+	
+}
+@media only screen
+and (min-device-width : 321px) 
+and (max-device-width : 375px) {
+/* Styles */
+	div.reverse-text-m {
+		margin-top:188px;
+	}
+	div.reverse-image-m {
+		margin-top:-430px;
+		margin-bottom:245px;
+	}
+
+	div.reverse-text {
+		margin-top:188px;
+	}
+	div.reverse-image {
+		margin-top:-450px;
+		margin-bottom:245px;
+	}
 	
 }
 
@@ -645,6 +698,10 @@ and (min-width : 1224px) {
 	div.title-banner {
 		height:220px;
 	}
+	.leadershipteam h2 {
+		color:#c8102e;
+		margin-top:90px;
+	}	
 /* 	
 	.effect5
 	{
