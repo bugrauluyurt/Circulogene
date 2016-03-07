@@ -305,7 +305,7 @@ div.sixth-image .container div a:hover {
 	background: #c8102e !important;
 }
 
-.submit-button input {
+.submit-button button {
 	border-color:#c8102e;
 	color:#c8102e !important;
 	width:150px !important;
@@ -587,61 +587,51 @@ and (max-device-width : 480px) {
 	div.information-section .container div > ul.list-checked li {
 		padding-left:0px;
 	}
+	.leadershipteam div.row {
+		height:auto;
+		position:relative;
+	}
+	div.reverse-image {
+		position:absolute;
+		top:0px;
+		width:100%;
+	}
+	div.reverse-text {
+		position:relative;
+		margin-top:180px;
+	}
+	div.reverse-text h2 {
+		padding-top:30px;
+	}
 }
 
 /* Smartphones (landscape) ----------- */
 @media only screen 
-and (min-width : 321px) {
+and (min-width : 480px) {
 /* Styles */
-	div.title-banner h1 {
-		padding-top:30px;
-	}
-	div.title-banner {
-		height:100px;
-	}
+
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen 
 and (max-width : 320px) {
 /* Styles */
-	div.reverse-text-m {
-		margin-top:188px;
+	div.reverse-text h2 {
+		padding-top:0px;
 	}
-	div.reverse-image-m {
-		margin-top:-430px;
-		margin-bottom:275px;
-	}
-
 	div.reverse-text {
-		margin-top:188px;
+		margin-top:160px;
 	}
-	div.reverse-image {
-		margin-top:-470px;
-		margin-bottom:290px;
-	}
-	
 }
-@media only screen
-and (min-device-width : 321px) 
-and (max-device-width : 375px) {
+@media only screen 
+and (max-width : 375px) {
 /* Styles */
-	div.reverse-text-m {
-		margin-top:188px;
+	div.reverse-text h2 {
+		padding-top:0px;
 	}
-	div.reverse-image-m {
-		margin-top:-430px;
-		margin-bottom:245px;
-	}
-
 	div.reverse-text {
-		margin-top:188px;
+		margin-top:190px;
 	}
-	div.reverse-image {
-		margin-top:-450px;
-		margin-bottom:245px;
-	}
-	
 }
 
 /* iPads (portrait and landscape) ----------- */

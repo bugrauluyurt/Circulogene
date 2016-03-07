@@ -1,6 +1,6 @@
 <?php     
 
-		$mail_to = 'alihan@globalgenetik.com'; // specify your email here
+		$mail_to = 'bugra.u@gmail.com'; // specify your email here
        
        // Assigning data from the $_POST array to variables     
        $name = $_POST['sender_name'];     
