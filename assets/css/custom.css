@@ -2,6 +2,10 @@
 body {
 	font-weight: 200 !important;
 }
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight:200 !important;
+}
 
 div.blank {
 	height:300px;
@@ -63,7 +67,7 @@ div.first-image > div.container > div{
 }
 
 div.first-image > div.container h1 {
-	font-weight: 200;
+	font-weight: 200 !important;
 	color:#c8102e;
 	width:300px;
 }
@@ -215,6 +219,7 @@ div.fifth-image .container .report-buttons a {
 	color:#c8102e;
 	width:150px !important;
 	margin:0 auto !important;
+	text-align:center;
 }
 
 div.fifth-image .container .report-buttons a:hover {
@@ -234,6 +239,14 @@ div.sixth-image {
 	background-color: #ffffff;
 	padding-top:66px;
 	padding-bottom:60px;
+}
+
+div.sixth-image hr {
+	margin:15px 0;
+}
+
+div.sixth-image span {
+	text-decoration: underline;
 }
 
 div.sixth-image .container div p {
@@ -459,6 +472,10 @@ div.information-section .container .news-item {
 	position:relative;
 	border-bottom:1px solid #c8102e;
 	padding-bottom:60px;
+}
+
+div.information-section .container .news-item:last-child {
+	border-bottom:none !important;
 }
 
 div.information-section .container .news-item a.btn-u {
