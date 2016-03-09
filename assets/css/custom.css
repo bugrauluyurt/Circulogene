@@ -412,11 +412,19 @@ div.information-section .container div > ul.list-checked li {
 	color:black;
 	font-weight: 200;
 	list-style-type: none;
+	position:relative;
+}
+
+div.information-section .container div > ul.list-checked span {
+	display:inline-block;
 }
 
 div.information-section .container div > ul li i {
 	color:#c8102e;
 	padding-right:15px;
+	position:absolute;
+	left:5px;
+	top:5px;
 }
 
 div.information-section .container div.side-text {
@@ -603,6 +611,13 @@ and (max-device-width : 480px) {
 	div.reverse-text h2 {
 		padding-top:30px;
 	}
+	div.information-section .container div > ul li i {
+	color:#c8102e;
+	padding-right:15px;
+	position:absolute;
+	left:-30px;
+	top:5px;
+}
 }
 
 /* Smartphones (landscape) ----------- */
@@ -691,6 +706,10 @@ and (min-width : 1224px) {
 	.leadershipteam h2 {
 		color:#c8102e;
 		margin-top:90px;
+	}
+	.leadershipteam h2:first-child {
+		color:#c8102e;
+		margin-top:70px;
 	}	
 /* 	
 	.effect5
