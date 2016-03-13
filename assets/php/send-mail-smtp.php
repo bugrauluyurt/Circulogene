@@ -1,5 +1,5 @@
 <?php     
-date_default_timezone_set('Europe/Athens');
+date_default_timezone_set('Europe/Istanbul');
 require 'PHPMailerAutoload.php';
 
 $mail = new PHPMailer;
